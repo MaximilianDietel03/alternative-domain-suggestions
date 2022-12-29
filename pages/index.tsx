@@ -10,7 +10,7 @@ const Home = () => {
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
     
-    console.log("Calling OpenAI...")
+    console.log("👀 Calling OpenAI...")
     let data;
     try {
       const response = await fetch('/api/generate', {
